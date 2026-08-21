@@ -1,0 +1,39 @@
+FINAL LIVE VALIDATION - FEDORA 44 / GNOME 50.4 / WAYLAND
+
+PASS - Backup was created before the only setting change.
+PASS - Seven required extensions are enabled and ACTIVE.
+PASS - Fresh 1920x1080 compositor captures show no visual corruption.
+PASS - Apple button opened ArcMenu; OverviewActive remained false.
+PASS - ArcMenu displayed apps, Files, Settings, Terminal and session actions.
+PASS - ArcMenu search returned Calculator.
+PASS - GNOME Overview opened, displayed window/workspace previews and closed.
+PASS - Settings, Calculator and Nautilus native search providers returned results.
+PASS - Dynamic workspaces remain enabled.
+PASS - Alt+Tab remains the native per-application switcher.
+PASS - Two temporary Ptyxis windows were grouped under the Ptyxis application.
+PASS - Super, Super+Space and Super+Return bindings are unchanged.
+PASS - Nautilus maximized to 1920x1052 and restored exactly to 1100x700.
+PASS - Nautilus, Settings, GTK3 Network Connections and GTK4 Text Editor opened.
+PASS - Temporary test windows were closed without logout or Shell restart.
+PASS - Flatpak Chrome sandbox started with Wayland/X11 access and dark portal value.
+PASS - Ptyxis has the approved Ctrl+Shift clipboard/tab/select shortcuts.
+PASS - Ctrl+C interrupted a running sleep command in a test PTY.
+PASS - Zsh startup remained 0.07-0.13 seconds in short samples.
+PASS - Tahoe-Dark-Local's eight 256 px overrides share a 234x234 visible box.
+PASS - No broken symlink exists in active Tahoe-Dark-Local or MacTahoe-blue-dark.
+PASS - Desktop and lock screen resolve to the same 7164x4628 wallpaper.
+PASS - All protected file hashes remained unchanged.
+PASS - Full dconf diff contains only the four intended Ptyxis shortcut changes.
+PASS - No relevant recent extension error or new coredump was found.
+
+NOT AUTOMATED - Physical Alt+Tab and workspace gesture injection is intentionally
+restricted/unreliable under Wayland. Native bindings, grouped windows, dynamic
+workspace state and accessible Overview workspaces were validated instead.
+
+NOT EXECUTED - The lock screen was not activated because that would interrupt
+the active user session. Its wallpaper, zoom, enabled state and blur were checked.
+
+TEMPORARY - Fresh visual capture used Mutter ScreenCast/PipeWire. The recording
+sessions were stopped; their orange menu-bar indicator was present only in the
+audit captures and is not part of the final desktop.
+

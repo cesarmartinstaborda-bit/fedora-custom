@@ -1,0 +1,8 @@
+appnameindicator@dev64.xyz
+arcmenu@arcmenu.com
+blur-my-shell@aunetx
+clipboard-indicator@tudmotu.com
+dash-to-dock@micxgx.gmail.com
+just-perfection-desktop@just-perfection
+rounded-windows@marcosgt.github.io
+user-theme@gnome-shell-extensions.gcampax.github.com

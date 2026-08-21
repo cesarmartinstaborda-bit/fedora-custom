@@ -1,0 +1,6 @@
+*.tar.gz
+*.tar
+*.zip
+*~
+*.swp
+.DS_Store

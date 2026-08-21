@@ -1,0 +1,10 @@
+GTK_THEME='WhiteSur-Dark-blue'
+ICON_THEME='Tahoe-Dark-Local'
+CURSOR_THEME='WhiteSur-cursors'
+CURSOR_SIZE=28
+FONT='Inter 11'
+DOCUMENT_FONT='Inter 11'
+MONO_FONT='JetBrains Mono 11'
+SHELL_THEME='WhiteSur-Dark-blue'
+WALLPAPER='file:///home/csh/.config/background'
+WALLPAPER_DARK='file:///home/csh/.config/background'

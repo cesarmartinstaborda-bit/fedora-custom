@@ -1,0 +1,4 @@
+com.google.Chrome	flathub	stable
+com.mattjakeman.ExtensionManager	flathub	stable
+io.github.swordpuffin.rewaita	flathub	stable
+io.github.vikdevelop.SaveDesktop	flathub	stable

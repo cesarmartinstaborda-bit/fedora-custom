@@ -1,0 +1,5 @@
+rsms-inter-fonts
+jetbrains-mono-fonts
+gnome-shell-extension-blur-my-shell
+gnome-shell-extension-dash-to-dock
+gnome-shell-extension-user-theme

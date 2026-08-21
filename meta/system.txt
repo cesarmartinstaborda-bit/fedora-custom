@@ -1,0 +1,3 @@
+Fedora=44
+GNOME Shell 50.4
+Session=wayland

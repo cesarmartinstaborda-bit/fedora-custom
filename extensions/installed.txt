@@ -1,0 +1,13 @@
+appnameindicator@dev64.xyz
+apps-menu@gnome-shell-extensions.gcampax.github.com
+arcmenu@arcmenu.com
+background-logo@fedorahosted.org
+blur-my-shell@aunetx
+clipboard-indicator@tudmotu.com
+dash-to-dock@micxgx.gmail.com
+just-perfection-desktop@just-perfection
+launch-new-instance@gnome-shell-extensions.gcampax.github.com
+places-menu@gnome-shell-extensions.gcampax.github.com
+rounded-windows@marcosgt.github.io
+user-theme@gnome-shell-extensions.gcampax.github.com
+window-list@gnome-shell-extensions.gcampax.github.com

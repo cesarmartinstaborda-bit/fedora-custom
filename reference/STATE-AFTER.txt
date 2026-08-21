@@ -1,0 +1,44 @@
+FINAL DESKTOP AUDIT - POST-CHANGE STATE
+Completed: 2026-08-20, America/Sao_Paulo
+
+Result
+======
+All visual settings from STATE-BEFORE.txt were preserved.
+No package, theme, icon, extension, launcher, CSS, wallpaper or shell file was
+installed, removed or modified during this audit.
+
+Only applied correction
+=======================
+org.gnome.Ptyxis.Shortcuts copy-clipboard: Ctrl+C -> Ctrl+Shift+C
+org.gnome.Ptyxis.Shortcuts paste-clipboard: Ctrl+V -> Ctrl+Shift+V
+org.gnome.Ptyxis.Shortcuts new-tab: Ctrl+T -> Ctrl+Shift+T
+org.gnome.Ptyxis.Shortcuts select-all: Ctrl+A -> Ctrl+Shift+A
+
+The four final values match the previously approved Ptyxis snapshot at:
+/home/csh/fedora-before-macos-customization/20260820-tahoe-ptyxis-terminal/ptyxis-after.dconf
+
+Exact dconf comparison
+======================
+The full pre-audit and post-audit dconf exports each contain 417 lines. Their
+only differences are the four Ptyxis shortcut values above.
+
+Final runtime checks
+====================
+All seven enabled extensions: ACTIVE.
+GNOME OverviewActive after tests: false.
+No recent relevant GNOME Shell/extension error.
+No recent GNOME Shell/Mutter/application coredump.
+GNOME Shell five-second CPU sample: 10.20% of one CPU.
+GNOME Shell RSS: 606852 KiB.
+GPU sample: 18%, 395 MiB, 40 C, 11.42 W.
+Protected wallpaper, Apple SVG, Shell CSS, GTK4 CSS, icon-theme metadata,
+Firefox launcher/icon and .zshrc hashes: all unchanged.
+
+Fresh visual evidence
+=====================
+visual/desktop-final.png
+visual/overview-final.png
+visual/apple-menu-final.png
+visual/favorite-icons.png
+visual/stage-contact-sheet.png
+

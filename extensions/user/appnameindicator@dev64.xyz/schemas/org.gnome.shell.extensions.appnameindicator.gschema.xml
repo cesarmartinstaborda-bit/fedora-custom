@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.appnameindicator" path="/org/gnome/shell/extensions/appnameindicator/">
+    <key name="format" type="s">
+      <default>"{name}"</default>
+      <summary>Window Label Format</summary>
+      <description>
+        Available placeholders for formatting the window label:
+
+        • {name}: Application name ("Extensions")
+        • {class}: Application class ("org.gnome.Shell.Extensions")
+        • {title}: Window title ("App Name Indicator")
+      </description>
+    </key>
+    <key name="show-icon" type="b">
+      <default>true</default>
+      <summary>Show application icon</summary>
+    </key>
+    <key name="show-text" type="b">
+      <default>true</default>
+      <summary>Show text label</summary>
+    </key>
+  </schema>
+</schemalist>
